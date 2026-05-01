@@ -259,7 +259,23 @@ Used **Metilene** to identify genomic regions that are **significantly different
 
 **Metilene DMR Results:**
 
-![Metilene Differentially Methylated Regions](metilene_plots.png)
+**Plot 1 — Mean Methylation Difference Distribution:**
+![Metilene Plot 1](metilene_plot1_methylation_difference.png)
+
+**Plot 2 — DMR Length Distribution (nucleotides):**
+![Metilene Plot 2](metilene_plot2_dmr_length_nt.png)
+
+**Plot 3 — DMR Length Distribution (CpG count):**
+![Metilene Plot 3](metilene_plot3_dmr_length_cpg.png)
+
+**Plot 4 — Q-value vs Mean Methylation Difference:**
+![Metilene Plot 4](metilene_plot4_qvalue.png)
+
+**Plot 5 — Group 1 vs Group 2 Mean Methylation:**
+![Metilene Plot 5](metilene_plot5_group_comparison.png)
+
+**Plot 6 — DMR Length (nt) vs DMR Length (CpGs):**
+![Metilene Plot 6](metilene_plot6_dmr_scatter.png)
 
 **Understanding Metilene output:**
 - Each row represents a **Differentially Methylated Region (DMR)**
