@@ -107,7 +107,35 @@ Ran **Falco** (an optimized rewrite of FastQC) on both raw FASTQ files to assess
 
 **Results — Dataset 1 (subset_1.fastq):**
 
-![Falco Dataset 1 Quality Report](falco_dataset1.1.png .png)
+
+
+**Basic Statistics:**
+![Falco Dataset 1 Basic Stats](falco_dataset1_basic_stats.png)
+
+**Per Base Sequence Quality:**
+![Falco Dataset 1 Per Base Quality](falco_dataset1_per_base_quality.png)
+
+**Per Sequence Quality Scores:**
+![Falco Dataset 1 Per Seq Quality](falco_dataset1_per_seq_quality.png)
+
+**Per Base Sequence Content:**
+![Falco Dataset 1 Sequence Content](falco_dataset1_seq_content.png)
+
+**Per Sequence GC Content:**
+![Falco Dataset 1 GC Content](falco_dataset1_gc_content.png)
+
+**Per Base N Content:**
+![Falco Dataset 1 N Content](falco_dataset1_n_content.png)
+
+**Sequence Length Distribution:**
+![Falco Dataset 1 Seq Length](falco_dataset1_seq_length.png)
+
+**Sequence Duplication Levels:**
+![Falco Dataset 1 Duplication](falco_dataset1_seq_duplication.png)
+
+**Adapter Content:**
+![Falco Dataset 1 Adapter](falco_dataset1_adapter_content.png)
+
 
 | Metric | Result | Interpretation |
 |--------|--------|----------------|
@@ -308,48 +336,37 @@ Used **Metilene** to identify genomic regions that are **significantly different
 ## Repository Structure
 wgbs-breast-cancer-methylation/
 │
-├──  📄 Galaxy12-[MethylDackel on dataset 7_ fraction CpG].bedgraph
-│   └── Main methylation output — CpG methylation fractions genome-wide
-│
+├── 📄 Galaxy12-[MethylDackel on dataset 7_ fraction CpG].bedgraph
 ├── 📄 Galaxy13-[CpGIslands.bed].bed
-│   └── CpG island annotations for the human hg38 genome
-│
 ├── 📄 Galaxy16-[heatmap2 on dataset 13].pdf
-│   └── Heatmap visualization of methylation across samples
-│
 ├── 🖼️ Galaxy50-[plotProfile on data 49_ Image].png
-│   └── plotProfile visualization of all samples
 │
-├── 🖼️ falco_dataset1.1.png
-│   └── Falco QC report for Dataset 1 (subset_1.fastq)
+├── 🖼️ falco_dataset1_basic_stats.png
+├── 🖼️ falco_dataset1_per_base_quality.png
+├── 🖼️ falco_dataset1_per_seq_quality.png
+├── 🖼️ falco_dataset1_seq_content.png
+├── 🖼️ falco_dataset1_gc_content.png
+├── 🖼️ falco_dataset1_n_content.png
+├── 🖼️ falco_dataset1_seq_length.png
+├── 🖼️ falco_dataset1_seq_duplication.png
+├── 🖼️ falco_dataset1_adapter_content.png
 │
-├── 🖼️ falco_dataset1.2.png
-│   └── Additional Falco QC graphs for Dataset 1
-│
-├── 🖼️ falco_dataset2.1.png
-│   └── Falco QC report for Dataset 2 (subset_2.fastq)
-│
-├── 🖼️ falco_dataset2.2.png
-│   └── Additional Falco QC graphs for Dataset 2
+├── 🖼️ falco_dataset2_basic_stats.png
 │
 ├── 🖼️ igv_visualization.png
-│   └── IGV genome browser view of aligned reads (chr1:5,190,700-5,191,200)
-│
 ├── 🖼️ methyldackel_cpg.png
-│   └── Screenshot of MethylDackel fraction CpG output table
 │
-├── 🖼️ metilene_plots.png
-│   └── Metilene differentially methylated regions plots
+├── 🖼️ metilene_plot1_methylation_difference.png
+├── 🖼️ metilene_plot2_dmr_length_nt.png
+├── 🖼️ metilene_plot3_dmr_length_cpg.png
+├── 🖼️ metilene_plot4_qvalue.png
+├── 🖼️ metilene_plot5_group_comparison.png
+├── 🖼️ metilene_plot6_dmr_scatter.png
 │
 ├── 🖼️ plotprofile_single_sample.png
-│   └── plotProfile result for single sample around CpG islands
-│
 ├── 🖼️ plotprofile_all_samples.png
-│   └── plotProfile comparison of all breast cancer samples
 │
 └── 📝 README.md
-└── This file — full pipeline documentation
-
 ---
 
 ##  How to Reproduce This Analysis
