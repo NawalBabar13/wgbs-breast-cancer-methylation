@@ -337,33 +337,53 @@ Used **Metilene** to identify genomic regions that are **significantly different
 wgbs-breast-cancer-methylation/
 │
 ├── 📄 Galaxy12-[MethylDackel on dataset 7_ fraction CpG].bedgraph
+
 ├── 📄 Galaxy13-[CpGIslands.bed].bed
+
 ├── 📄 Galaxy16-[heatmap2 on dataset 13].pdf
+
 ├── 🖼️ Galaxy50-[plotProfile on data 49_ Image].png
+
 │
 ├── 🖼️ falco_dataset1_basic_stats.png
+
 ├── 🖼️ falco_dataset1_per_base_quality.png
+
 ├── 🖼️ falco_dataset1_per_seq_quality.png
+
 ├── 🖼️ falco_dataset1_seq_content.png
+
 ├── 🖼️ falco_dataset1_gc_content.png
+
 ├── 🖼️ falco_dataset1_n_content.png
+
 ├── 🖼️ falco_dataset1_seq_length.png
+
 ├── 🖼️ falco_dataset1_seq_duplication.png
+
 ├── 🖼️ falco_dataset1_adapter_content.png
 │
 ├── 🖼️ falco_dataset2_basic_stats.png
 │
 ├── 🖼️ igv_visualization.png
+
 ├── 🖼️ methyldackel_cpg.png
 │
 ├── 🖼️ metilene_plot1_methylation_difference.png
+
 ├── 🖼️ metilene_plot2_dmr_length_nt.png
+
 ├── 🖼️ metilene_plot3_dmr_length_cpg.png
+
 ├── 🖼️ metilene_plot4_qvalue.png
+
 ├── 🖼️ metilene_plot5_group_comparison.png
+
 ├── 🖼️ metilene_plot6_dmr_scatter.png
+
 │
 ├── 🖼️ plotprofile_single_sample.png
+
 ├── 🖼️ plotprofile_all_samples.png
 │
 └── 📝 README.md
