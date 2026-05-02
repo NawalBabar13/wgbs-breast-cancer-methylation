@@ -103,8 +103,7 @@ Ran Falco on both raw FASTQ files to assess read quality.
 **Sequence Duplication Levels:**
 ![Falco Dataset 1 Duplication](falco_dataset1_seq_duplication.png)
 
-**Adapter Content:**
-![Falco Dataset 1 Adapter](falco_dataset1_adapter_content.png)
+
 
 #### Dataset 2 (subset_2.fastq) Results:
 
